@@ -34,17 +34,16 @@ const ProjectsSection = () => {
       </div>
 
       <div className="relative flex h-[500px] w-full flex-col items-center justify-center gap-6 overflow-hidden bg-white">
-        <Marquee pauseOnHover className="[--duration:40s]">
+        <Marquee pauseOnHover duration="40s">
           {firstRow.map((project) => (
             <ProjectImageCard key={project.id} image={project.image} title={project.title} />
           ))}
-          {/* Duplicate for smoother loop if needed, Marquee usually handles this but adding more items helps if the list is short */}
           {firstRow.map((project) => (
             <ProjectImageCard key={`${project.id}-dup`} image={project.image} title={project.title} />
           ))}
         </Marquee>
         
-        <Marquee reverse pauseOnHover className="[--duration:40s]">
+        <Marquee reverse pauseOnHover duration="40s">
           {secondRow.map((project) => (
             <ProjectImageCard key={project.id} image={project.image} title={project.title} />
           ))}

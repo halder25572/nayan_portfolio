@@ -110,7 +110,7 @@ body {
   }
 
   .btn-primary {
-    @apply bg-primary text-white px-6 py-3 rounded-lg font-medium transition-all hover:bg-orange-600 active:scale-95 flex items-center justify-center gap-2;
+    @apply bg-primary text-white px-6 py-3 rounded-lg font-medium transition-all hover:bg-orange-600 active:scale-95 flex items-center justify-center gap-2;   
   }
 
   .btn-secondary {
@@ -135,26 +135,26 @@ body {
   @apply bg-gray-300 rounded-full hover:bg-gray-400 transition-colors;
 }
 
-@theme inline {
-  @keyframes marquee {
+/* Marquee keyframes - @theme inline এর বাইরে রাখতে হবে */
+@keyframes marquee {
   from {
     transform: translateX(0);
-    }
+  }
   to {
     transform: translateX(calc(-100% - var(--gap)));
-    }
   }
-  @keyframes marquee-vertical {
+}
+
+@keyframes marquee-vertical {
   from {
     transform: translateY(0);
-    }
+  }
   to {
     transform: translateY(calc(-100% - var(--gap)));
-    }
   }
 }
 
 ::view-transition-old(root), ::view-transition-new(root) {
-    animation: none;
-    mix-blend-mode: normal;
+  animation: none;
+  mix-blend-mode: normal;
 }
