@@ -17,10 +17,10 @@ const ExperienceSection = () => {
             My Journey
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">
-            Educational & Professional Background
+            Professional Journey
           </h2>
           <p className="text-gray-500 mt-4 text-lg max-w-2xl mx-auto">
-            A timeline of my career growth, from my academic roots to my current senior developer role.
+           Delivering scalable and high-performance applications across web, mobile, and cloud platforms for global clients.
           </p>
         </div>
 
