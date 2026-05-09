@@ -28,7 +28,7 @@ export default function Home() {
           </p>
           <div className="pt-4">
             <a 
-              href="mailto:contact@nayan.com" 
+              href="mailto:halder25572@gmail.com" 
               className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors shadow-xl"
             >
               Get In Touch Now

@@ -29,7 +29,7 @@ const HeroSection = () => {
               
               <div className="space-y-2">
                 <p className="text-lg font-bold text-gray-800 flex items-center gap-2">
-                  👋 Hi! I'm Azmir Uddin Alif
+                  👋 Hi! I'm Nayan Halder
                 </p>
                 <h1 className="text-5xl md:text-7xl font-bold text-primary leading-tight">
                   Frontend Developer
@@ -81,8 +81,8 @@ const HeroSection = () => {
                
                <div className="relative w-full h-full flex items-end justify-center overflow-hidden">
                   <Image 
-                    src="/images/Azmir Uddin Alif.png" 
-                    alt="Azmir Uddin Alif" 
+                    src="/images/nayan.png" 
+                    alt="Nayan" 
                     fill
                     className="object-contain object-bottom transition-transform duration-500 hover:scale-105"
                     priority

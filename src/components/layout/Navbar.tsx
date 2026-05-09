@@ -54,7 +54,7 @@ const Navbar = () => {
                 <path d="M12 2L2 22H22L12 2Z" fill="#FF7D05" />
                 <path d="M12 6L5 20H19L12 6Z" fill="white" fillOpacity="0.2" />
               </svg>
-              <span className="font-bold text-xl tracking-tight text-primary">azmir</span>
+              <span className="font-bold text-xl tracking-tight text-primary">Nayan</span>
             </div>
           </Link>
 
